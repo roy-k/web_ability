@@ -1,11 +1,20 @@
 # list
 
-0. 类库引入 更新项目
 
-1. 文档迁移
+## todo
 
-2. 逻辑划分
+1. 清理代码
+2. antd / router
+3. 文件夹准备 doc / fetch / ...
+4. layout / pages Router
+5. schedule
 
-3. 说明 绘图规划
 
-4. 开源相关
+## feature Road
+
+1. 开源相关知识
+2. 项目链接
+
+## docs
+
+1. [Create React App Doc](https://create-react-app.dev/docs/getting-started)
