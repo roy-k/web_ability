@@ -1,5 +1,3 @@
-import React from "react"
-
 import style from "./layout.module.less"
 
 import { Icon } from "components/icon"

@@ -1,4 +1,3 @@
-import React from "react"
 import { withRouter, Link } from "react-router-dom"
 
 import style from "./layout.module.less"
@@ -7,6 +6,7 @@ import { menuConfig } from "./router.config"
 
 import { Menu, Icon } from "antd"
 import { Icon as MyIcon } from "components/icon"
+
 const { SubMenu } = Menu
 
 export const Aside = withRouter(({ match }) => {
@@ -34,7 +34,8 @@ export const Aside = withRouter(({ match }) => {
                             }>
                             {children
                                 ? children.map(child => {
-                                      const { label, route: childRoute, leaf } = child
+                                    // todo leaf
+                                      const { label, route: childRoute } = child
                                       return (
                                           <Menu.Item key={childRoute}>
                                               <Link to={`${path}${route}/${childRoute}`}>{label}</Link>

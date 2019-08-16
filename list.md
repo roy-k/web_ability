@@ -1,24 +1,22 @@
 # list
 
-
 ## todo
 
-3. menu config
 
-4. pages Router
+1. schedule
 
-5. schedule
+2. local
+3. mock
 
-6. local
-7. mock
+4. eslint 独立配置
 
 ## feature Road
 
-0. typescript 开发规范 代码顺序等
+1. typescript 开发规范 代码顺序等
 
-1. 开源相关知识
+2. 开源相关知识
 
-2. 项目链接
+3. 项目链接
 
 ## issue
 

@@ -1,5 +1,3 @@
-import React from 'react'
-
 import 'assets/style/reset.css'
 import 'assets/style/common.css'
 import 'assets/style/global.less'

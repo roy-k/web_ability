@@ -1,39 +1,35 @@
-import React, { lazy } from "react"
-import { Switch, Route } from "react-router-dom"
+import { lazy } from 'react'
+import { Switch, Route } from 'react-router-dom'
 
-import style from "./layout.module.less"
+import style from './layout.module.less'
 
-import { menuConfig } from "./router.config"
+import { menuConfig } from './router.config'
 
-import { asyncImport } from "components/base/getAsyncImport"
-
-// const Formik = asyncImport(lazy(() => import('pages/form/formik')))
-// const Formik = lazy(() => import('pages/form/formik'))
-
+import { asyncImport } from 'components/base/getAsyncImport'
 
 export function Content() {
     return (
         <section className={style.content}>
             <Switch>
-                {/* <Route path="/form/formik" component={Formik}/> */}
-                {/* {menuConfig.map(({ route, children }) => {
+                {menuConfig.map(({ route, children }) => {
                     return (
                         <Route
                             key={route}
                             path={`/${route}`}
-                            render={({ match }) => {
-                                const { path } = match
+                            render={() => {
+                                // todo 是否需要 match.path
+                                // const { path } = match
                                 return (
                                     <>
                                         {children
                                             ? children.map(child => {
-                                                  const { route: childRoute, component } = child
+                                                  const { route: childRoute } = child
 
                                                   return (
                                                       <Route
                                                           key={childRoute}
                                                           path={`/${route}/${childRoute}`}
-                                                          component={Formik}
+                                                          component={asyncImport(lazy(() => import(`pages/${route}/${childRoute}`)))}
                                                       />
                                                   )
                                               })
@@ -43,7 +39,7 @@ export function Content() {
                             }}
                         />
                     )
-                })} */}
+                })}
             </Switch>
         </section>
     )
