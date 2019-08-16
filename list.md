@@ -1,14 +1,40 @@
 # list
 
+## 原则
+
+- 禁用 class component
+
+## libs
+
+`可视化`
+
+1. g6
+2. echarts
+3. map
+4. ...
+
+`form`
+1. formik
+2. rc-form(antd)
+
+`other`
+
+1. dayjs
+2. async.js
+3. lodash
+4. 函数式
+5. ...
+
+
 ## todo
 
+- 资源替换 去除个人信息
 
 1. schedule
 
-2. local
-3. mock
+2. locale
 
-4. eslint 独立配置
+3. mock
 
 ## feature Road
 
@@ -19,8 +45,6 @@
 3. 项目链接
 
 ## issue
-
-- react 不需要引入
 
 ## docs
 

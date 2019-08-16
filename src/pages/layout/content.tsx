@@ -1,11 +1,10 @@
 import { lazy } from 'react'
 import { Switch, Route } from 'react-router-dom'
+import { asyncImport } from 'components/base/getAsyncImport'
 
 import style from './layout.module.less'
 
 import { menuConfig } from './router.config'
-
-import { asyncImport } from 'components/base/getAsyncImport'
 
 export function Content() {
     return (
@@ -44,9 +43,3 @@ export function Content() {
         </section>
     )
 }
-// () => {
-//     const RouteC = asyncImport(
-//         lazy(() => import(`pages/${route}/${childRoute}`))
-//     )
-//     return <RouteC />
-// }
