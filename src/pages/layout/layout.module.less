@@ -1,0 +1,38 @@
+.header {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: end;  // todo grid 嵌套
+    align-self: center;
+    height: 48px;
+    line-height: 48px;
+    background-color: #ccc;
+    padding: 0 20px;
+}
+.aside {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    .pageTitle {
+        height: 48px;
+        line-height: 48px;
+        padding: 0 20px;
+        overflow: hidden;
+        background-color: #d6e4ff;
+    }
+    .logo {
+        font-size: 30px;
+        color: #f00;
+    }
+    .title {
+        vertical-align: top;
+        font-weight: 500;
+    }
+}
+.content {
+    background-color: #fafafa;
+}
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+    align-self: center;
+}

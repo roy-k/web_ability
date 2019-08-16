@@ -3,17 +3,26 @@
 
 ## todo
 
-1. 清理代码
-2. antd / router
-3. 文件夹准备 doc / fetch / ...
-4. layout / pages Router
+3. menu config
+
+4. pages Router
+
 5. schedule
 
+6. local
+7. mock
 
 ## feature Road
 
+0. typescript 开发规范 代码顺序等
+
 1. 开源相关知识
+
 2. 项目链接
+
+## issue
+
+- react 不需要引入
 
 ## docs
 

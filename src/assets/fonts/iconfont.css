@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1565933833800'); /* IE9 */
+  src: url('iconfont.eot?t=1565933833800#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO8AAsAAAAAB+wAAANtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDFAqDMIJ0ATYCJAMQCwoABCAFhG0HRxvdBhHVmxXJfiTGMSnrzJI30R6NmSDg37Pmob1sspJOsj7hBsB+2576r6SFgkbqtyjWkZ3DeGOYz3M5vVHi89tZbmtvHxMwCjjAvagXJRIXKAbcMHYT5UHchgBMQklGlClXpQ4GGrBIAKJLx/YtMVJmdE2twEBgL9mpETOwYciJ8gownX9ffCZTGCCxKcDKGu3KtqHEu3vvt6kRjhE0oQSS8ZyAtg8UkAxoEC1K3Y1QYToZhelM1qQCdjQCOVbQ4eDUVrGrta/0h6eQIOyAamcAskWj4qwkmIGA91sZKHi/rQoJ8DIsBneTHQpsktnB7yURSB+rrLNz4z136r587XfgTp1Xr+rdf11/ckzwvDsNc5vnhtWdu9byLzd42bHcfXfyj9wJXr9/78aAhf5L7iTP8d6QuihwV2S9RasCT9VZcyW6xo0iJePW+82fPHeuz8aQu3WX7kzYerfw/vtJ1++X3n4f/AO9O5sd5vg0nGtZjUbWqzfPNOvSwJrs1/jnva/DF1/oGNzkdPJB76fFdglLFVms2tt6VJ77W4ZTdeaPkP0n7hTOjWrSxuqaKGJ9KLxqSa+uQZU6ujzbldNsbMWY04tV8KLf6TVvT9rwPuPz1KAlXoOK/PoVXcJo3dLlzYgDa4sm/err9fhq+bBVsWOix45cXmV/Ka8bTUukXgqp2bbtx8y6CU1cWtA7LCfsRm4Y4mxj5LVzTeS+HX2vCnWi7w2x0uWUFCtMekh3aeQhcPxSZ5UNHMfVJlXiz83CuWvk3OZuRb4Z1uGPPBzSyokHHcc17bxg3JBHwH+StOzRrgxYtLblWOx5NWV7z5CAiQn8n3oAT56NofVpXQ0CA58YkgKEQGEQTWp2MmxYZMOOQXGYJFF+v4UXvVAI7QQkMlaAwJ3tkLhyHAp3rpKa/RQ2fPkKO+5CwaSe8DrRIlbQTp0ZG8Ee2gNcR6NGNlFB7RvNEhtOyjjnjzy7GJRZkc3dcUQeY828mkpEg2Ya4CbchzESTEweO8msyFTnuS57UdbRkChKMzaCPbQHuI5GTYeLyn3+jWaJDdc0dIT/yLMbH8qsaEHe1WOrhmt5Zl5NJaJBMw1wE5wYYZpgKp/msZPM9khOdS4N0m3V2fza4QGKtBbAI1pIoYQWNnSVx/2hIhlKVzcgnaKS3Y0mSQAAAAA=') format('woff2'),
+  url('iconfont.woff?t=1565933833800') format('woff'),
+  url('iconfont.ttf?t=1565933833800') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1565933833800#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-LOGO:before {
+  content: "\e6d6";
+}
+
+.icon-logo-vimeo:before {
+  content: "\e7ae";
+}
+
+.icon-logo-xing:before {
+  content: "\e7ad";
+}
+
