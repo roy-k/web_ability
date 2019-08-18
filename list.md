@@ -25,8 +25,22 @@
 4. 函数式
 5. ...
 
+`编辑器`
+
+1. block
+2. ...
 
 ## todo
+
+- 中止数据请求方案
+- enum 处理魔法字符串
+test:
+
+    - svg 引用
+    - chunk number 会变么?
+    - fetch
+    - ssr
+    - deploy 详细
 
 - 资源替换 去除个人信息
 
