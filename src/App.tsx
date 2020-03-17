@@ -4,6 +4,6 @@ import 'assets/style/global.less'
 
 import 'assets/fonts/iconfont'
 
-import { Layout } from "pages/layout";
+import { Layout } from "layout";
 
 export default Layout

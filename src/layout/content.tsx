@@ -1,4 +1,4 @@
-import { lazy } from 'react'
+import React, { lazy } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import { asyncImport } from 'components/base/getAsyncImport'
 

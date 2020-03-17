@@ -1,6 +1,7 @@
+import React from 'react'
 import style from './layout.module.less'
 
-import { Icon } from 'antd'
+import Icon, {GlobalOutlined} from '@ant-design/icons'
 
 /**
  * todo
@@ -10,7 +11,7 @@ import { Icon } from 'antd'
 export function Header() {
     return (
         <header className={style.header}>
-            <Icon type='global' />
+            <GlobalOutlined />
         </header>
     )
 }

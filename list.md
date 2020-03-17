@@ -1,5 +1,11 @@
 # list
 
+## points
+
+- 主题切换
+- 多语言
+- 
+
 ## 原则
 
 - 禁用 class component
@@ -13,9 +19,6 @@
 3. map
 4. ...
 
-`form`
-1. formik
-2. rc-form(antd)
 
 `other`
 
@@ -36,7 +39,6 @@
 - enum 处理魔法字符串
 test:
 
-    - svg 引用
     - chunk number 会变么?
     - fetch
     - ssr
@@ -51,8 +53,6 @@ test:
 3. mock
 
 ## feature Road
-
-1. typescript 开发规范 代码顺序等
 
 2. 开源相关知识
 

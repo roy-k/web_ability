@@ -1,0 +1,15 @@
+{
+    "extends": "react-app",
+    "rules": {
+        "no-unused-expressions": "off",
+        "react/react-in-jsx-scope": "off"
+    },
+    "overrides": [
+        {
+            "files": ["**/*.js?(x)"],
+            "rules": {
+                "no-unused-expressions": "off"
+            }
+        }
+    ]
+}
