@@ -6,6 +6,8 @@ import style from './layout.module.less'
 
 import { menuConfig } from './router.config'
 
+import Practice from 'pages/pratice'
+
 export function Content() {
     return (
         <section className={style.content}>
@@ -39,6 +41,7 @@ export function Content() {
                         />
                     )
                 })}
+                <Route path="/practice" component={Practice}/>
             </Switch>
         </section>
     )
