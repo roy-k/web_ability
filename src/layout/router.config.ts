@@ -6,8 +6,18 @@ export const menuConfig = [
         // todo 多级路由
         children: [
             {
-                label: '常规',
-                route: 'normal',
+                label: '柱状图',
+                route: 'bar',
+                leaf: true,
+            },
+            {
+                label: '饼状图',
+                route: 'pie',
+                leaf: true,
+            },
+            {
+                label: '力导图',
+                route: 'forceSimulation',
                 leaf: true,
             },
         ],
